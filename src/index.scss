@@ -1,0 +1,15 @@
+@import "/src/styles/colors.scss";
+@import "/src/styles/fonts.scss";
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+    font-family: $font_family !important;
+    color: $text_color;
+    overflow-x: hidden;
+}

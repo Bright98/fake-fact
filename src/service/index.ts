@@ -1,0 +1,1 @@
+export { AskFromGpt } from "./gpt";

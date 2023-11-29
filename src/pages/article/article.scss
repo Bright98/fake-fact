@@ -1,0 +1,17 @@
+.article {
+    &-content {
+        min-height: 100vh;
+        padding: 50px 0;
+    }
+
+    &-text {
+        white-space: pre-line;
+        font-size: 16px;
+
+        &:first-line {
+            text-transform: capitalize;
+            font-size: 22px;
+            font-weight: bold;
+        }
+    }
+}
