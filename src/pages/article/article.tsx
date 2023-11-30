@@ -1,4 +1,4 @@
-import { Button, ConfigProvider, Flex, Input, Typography } from "antd";
+import { ConfigProvider, Flex, Typography } from "antd";
 import React from "react";
 import { ExistLangs } from "../../lang/lang";
 import Layout, { Content } from "antd/es/layout/layout";

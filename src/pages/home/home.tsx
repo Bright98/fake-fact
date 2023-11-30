@@ -5,7 +5,6 @@ import {
     Input,
     Layout,
     Radio,
-    Switch,
     Typography,
 } from "antd";
 import React from "react";
@@ -98,8 +97,6 @@ const HomePage: React.FC = () => {
                                         " " +
                                         subj;
                                     var res = await AskFromGpt(content);
-                                    console.log(res);
-
                                     setLoading(false);
                                     if (res === null) {
                                         window.alert(
